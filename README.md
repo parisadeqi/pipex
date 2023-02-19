@@ -12,6 +12,7 @@ Run this command to build the library including the bonus functions:
 ```sh
 $ make bonus
 ```
+
 ## Mandatory Part
 If you run pipex like this:
 ```sh
@@ -34,6 +35,7 @@ It would behave exactly the same as the shell command below:
 ```sh
 $> < file1 cmd1 | cmd2 | cmd3 | ... | cmdn > file2
 ```
+
 ### Second part of the Bonus
 Pipex will support « and » when the first parameter is "here_doc". You should run it like this:
 ```sh
@@ -44,7 +46,6 @@ And it would behave exactly like this shell command:
 $> cmd1 << LIMITER | cmd2 >> file2
 ```
 
-**Note:** Francinette doesn't run against the original Makefile for bonus functions. For more details, see [Makefile](./Makefile#L33).
 ## Result
 ![Score: 125/100](./score.png)
 
