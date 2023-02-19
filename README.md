@@ -12,7 +12,7 @@ Run this command to build the library including the bonus functions:
 ```sh
 $ make bonus
 ```
-##Mandatory Part
+## Mandatory Part
 If you run pipex like this:
 ```sh
 $> ./pipex file1 cmd1 cmd2 file2
@@ -23,9 +23,9 @@ $> < file1 cmd1 | cmd2 > file2
 ```
 And errors have been handled as well.
 
-##Bonus Part
+## Bonus Part
 
-###Firt part of the Bonus
+### Firt part of the Bonus
 Pipex can handle multiple pipes if you run it like this:
 ```sh
 $> ./pipex file1 cmd1 cmd2 cmd3 ... cmdn file2
@@ -34,7 +34,7 @@ It would behave exactly the same as the shell command below:
 ```sh
 $> < file1 cmd1 | cmd2 | cmd3 | ... | cmdn > file2
 ```
-###Second part of the Bonus
+### Second part of the Bonus
 Pipex will support « and » when the first parameter is "here_doc". You should run it like this:
 ```sh
 $> ./pipex here_doc LIMITER cmd1 cmd2 file2
